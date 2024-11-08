@@ -212,3 +212,37 @@ footer a:hover {
 html {
   scroll-behavior: smooth;
 }
+/* Blog Post Previews */
+.blog-post-preview {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post-preview:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.blog-post-preview h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.blog-post-preview a {
+  color: #1f3a93;
+  text-decoration: none;
+}
+
+.blog-post-preview a:hover {
+  text-decoration: underline;
+}
+
+.blog-post-preview p {
+  font-size: 1em;
+  color: #333;
+  margin: 0;
+}
