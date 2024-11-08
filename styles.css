@@ -34,6 +34,28 @@ body {
   color: #ff7f50;
 }
 
+/* Updated Sale Banner */
+.sale-banner {
+  text-align: center;
+  background-color: #ff4500; /* Bright, noticeable color */
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 0;
+  border-radius: 0;
+}
+
+.sale-banner a {
+  color: #ffe4b5;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.sale-banner a:hover {
+  color: #ffebcd;
+}
+
 /* Header Section */
 .main-header h1 {
   font-size: 3em;
@@ -107,6 +129,63 @@ body {
 .blog-post p {
   font-size: 1.1em;
   color: #333;
+}
+
+/* Inquiry Form Styles */
+.inquiry-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #34495e;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: #2c3e50;
+  font-size: 1em;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.recaptcha {
+  text-align: center;
+}
+
+.submit-button {
+  background-color: #ff7f50;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #ff6347;
 }
 
 /* Footer */
